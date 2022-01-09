@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Minecraft</title>
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323&display=swap');
+		body {
+		font-family: 'VT323', monospace;
+		color:#FFFFFF;
+		background-image:url('img/bg.jpg');
+		}
+		applet {
+		position:fixed;
+		left:0xp;
+		top:0px;
+		width:100%;
+		height:100%;
+		}
+		input[type=text] {
+		font-family: 'VT323', monospace;
+		color:FFFFFF;
+		background-color:000000;
+		border-style: groove;
+		border-color: silver;
+		}
+		input[type=submit] {
+		background-image:url('http://pixelartmaker.com/art/54b2d246e0e35be.png');
+		background-position:center;
+		font-family: 'VT323', monospace;
+		color:FFFFFF;
+		}
+		
+		select {
+		background-image:url('http://pixelartmaker.com/art/54b2d246e0e35be.png');
+		background-position:center;
+		font-family: 'VT323', monospace;
+		color:FFFFFF;
+		}
+		</style>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+	<form action="home.php" method="POST">
+		<table style="position:fixed;top:38%;left:38%;">
+			<tr>
+				<td>Nick: </td/><td><input type="text" name="nick" /></td>
+			</tr>
+			<tr>
+				<td>Forçar Atualização? </td/><td>
+				<select name="update">
+					<option value="1">Sim</option>
+					<option value="0">Não</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Jogar Versão Demo? </td/><td>
+				<select name="demo">
+					<option value="1">Sim</option>
+					<option value="0">Não</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td/><td><input type="submit" value="submit" /></td>
+			</tr>
+		</table>
+	</form>
+	</body>
+</html>
